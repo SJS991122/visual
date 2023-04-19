@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="14_.cpp" />
+    <ClCompile Include="14_structures.cpp" />
+    <ClCompile Include="15_reference_variable.cpp" />
+    <ClCompile Include="16_range_based_for_loop.cpp" />
+    <ClCompile Include="섯다풀이.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
