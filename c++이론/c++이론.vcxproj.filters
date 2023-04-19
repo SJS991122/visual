@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="14_structures.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12_array.cpp">
+    <ClCompile Include="섯다풀이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="미완성별피하기게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13_.cpp">
+    <ClCompile Include="15_reference_variable.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

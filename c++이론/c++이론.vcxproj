@@ -18,16 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="12_array.cpp" />
-    <ClCompile Include="13_.cpp" />
-    <ClCompile Include="미완성별피하기게임.cpp" />
-    <ClCompile Include="소스.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bbb27be7-08c4-49bc-bce0-ce1dca61fb85}</ProjectGuid>
+    <ProjectGuid>{f9d7928c-3c48-4ae9-a86d-23f37469ff4d}</ProjectGuid>
     <RootNamespace>c이론</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -144,6 +138,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="14_structures.cpp" />
+    <ClCompile Include="15_reference_variable.cpp" />
+    <ClCompile Include="섯다풀이.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
