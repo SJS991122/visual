@@ -142,6 +142,11 @@
     <ClCompile Include="00_OOP.cpp" />
     <ClCompile Include="01_class.cpp" />
     <ClCompile Include="02_Encapsulation.cpp" />
+    <ClCompile Include="03_construcrtor.cpp" />
+    <ClCompile Include="04_constructor_member_initializer.cpp" />
+    <ClCompile Include="05_delegeting_constructor.cpp" />
+    <ClCompile Include="06_destructor.cpp" />
+    <ClCompile Include="07_this_pointer_and_chaining_member_functions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

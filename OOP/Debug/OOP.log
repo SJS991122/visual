@@ -1,0 +1,29 @@
+﻿  00_OOP.cpp
+  01_class.cpp
+C:\Users\user\source\repos\c++이론\OOP\01_class.cpp(14,1): error C2011: 'person': 'struct' 형식 재정의
+C:\Users\user\source\repos\c++이론\OOP\01_class.cpp(4): message : 'person' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\OOP\01_class.cpp(37,9): error C2079: 'p'은(는) 정의되지 않은 struct 'person'을(를) 사용합니다.
+C:\Users\user\source\repos\c++이론\OOP\01_class.cpp(38,9): error C2079: 'p1'은(는) 정의되지 않은 struct 'person'을(를) 사용합니다.
+C:\Users\user\source\repos\c++이론\OOP\01_class.cpp(41,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\OOP\01_class.cpp(35): message : 'main' 선언을 참조하십시오.
+  02_Encapsulation.cpp
+C:\Users\user\source\repos\c++이론\OOP\02_Encapsulation.cpp(78,22): error C2660: 'fruitbuyer::buyapples': 함수는 1개의 인수를 사용하지 않습니다.
+C:\Users\user\source\repos\c++이론\OOP\02_Encapsulation.cpp(60,7): message : 'fruitbuyer::buyapples' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\OOP\02_Encapsulation.cpp(82,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\OOP\02_Encapsulation.cpp(72): message : 'main' 선언을 참조하십시오.
+  03_construcrtor.cpp
+C:\Users\user\source\repos\c++이론\OOP\03_construcrtor.cpp(38,18): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\c++이론\OOP\03_construcrtor.cpp(43,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\OOP\03_construcrtor.cpp(34): message : 'main' 선언을 참조하십시오.
+  04_constructor_member_initializer.cpp
+C:\Users\user\source\repos\c++이론\OOP\04_constructor_member_initializer.cpp(28,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\OOP\04_constructor_member_initializer.cpp(24): message : 'main' 선언을 참조하십시오.
+  05_delegeting_constructor.cpp
+C:\Users\user\source\repos\c++이론\OOP\05_delegeting_constructor.cpp(43,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\OOP\05_delegeting_constructor.cpp(40): message : 'main' 선언을 참조하십시오.
+  06_destructor.cpp
+C:\Users\user\source\repos\c++이론\OOP\06_destructor.cpp(51,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\OOP\06_destructor.cpp(37): message : 'main' 선언을 참조하십시오.
+  07_this_pointer_and_chaining_member_functions.cpp
+C:\Users\user\source\repos\c++이론\OOP\07_this_pointer_and_chaining_member_functions.cpp(74,2): error C2059: 구문 오류: 'return'
+  코드를 생성하고 있습니다...
