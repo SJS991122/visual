@@ -106,19 +106,24 @@ public:
 	//전위
 	Vector& operator++()
 	{
-
+		x += 1;
+		++y;
+		++z;
+		return *this;
 	}
 
 	//후위
-	Vector& operator++(int)//dummy
+	Vector& operator++(int)//dummy &가 유무가 상관없음
 	{
-
+		Vector temp = *this;
+		++(*this);
+		return temp;
 	}
 
 private:
 	int x, y, z;//상대적 표현 z=1로 할것
 	
 };
-
+//지렁이게임 만들기
 #pragma endregion
-//지렁이게임
+

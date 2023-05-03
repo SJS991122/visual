@@ -142,6 +142,8 @@
   <ItemGroup>
     <ClCompile Include="00_operator_overloading.cpp" />
     <ClCompile Include="01_arthmatic_operator.cpp" />
+    <ClCompile Include="02_input_output_operator.cpp" />
+    <ClCompile Include="03_Unary_operator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
