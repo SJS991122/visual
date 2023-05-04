@@ -144,6 +144,12 @@
     <ClCompile Include="01_arthmatic_operator.cpp" />
     <ClCompile Include="02_input_output_operator.cpp" />
     <ClCompile Include="03_Unary_operator.cpp" />
+    <ClCompile Include="04_relational.cpp" />
+    <ClCompile Include="05_subscipt_operator.cpp" />
+    <ClCompile Include="06_parenthesis_operator.cpp" />
+    <ClCompile Include="07_typecast_operator.cpp" />
+    <ClCompile Include="08_new_delete_operator.cpp" />
+    <ClCompile Include="09_pointer_operator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
