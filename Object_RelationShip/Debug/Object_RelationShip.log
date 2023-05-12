@@ -1,0 +1,116 @@
+﻿  01_object_relationship.cpp
+C:\Users\user\source\repos\c++이론\Object_RelationShip\01_object_relationship.cpp(31,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\01_object_relationship.cpp(29): message : 'main' 선언을 참조하십시오.
+  02_composition.cpp
+C:\Users\user\source\repos\c++이론\Object_RelationShip\02_composition.cpp(41,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\02_composition.cpp(34): message : 'main' 선언을 참조하십시오.
+  03_aggregation.cpp
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(8,2): error C2065: 'Student': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(8,10): error C2146: 구문 오류: ';'이(가) 's1' 식별자 앞에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(8,10): error C3861: 's1': 식별자를 찾을 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(9,2): error C2065: 'Student': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(9,10): error C2146: 구문 오류: ';'이(가) 's2' 식별자 앞에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(9,10): error C3861: 's2': 식별자를 찾을 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(10,2): error C2065: 'Student': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(10,10): error C2146: 구문 오류: ';'이(가) 's3' 식별자 앞에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(10,10): error C3861: 's3': 식별자를 찾을 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(13,22): error C2065: 's1': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(14,21): error C2065: 's2': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(15,22): error C2065: 's3': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,3): error C2065: 'Lecture': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,11): error C2146: 구문 오류: ';'이(가) 'lec' 식별자 앞에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,11): error C3861: 'lec': 식별자를 찾을 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(23,22): error C2065: 's1': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(24,21): error C2065: 's2': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(25,22): error C2065: 's3': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(27,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(3): message : 'main' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_teach.h(9,14): error C2065: 'Student': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_teach.h(9,22): error C2059: 구문 오류: '>'
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_lecture.h(17,22): error C2535: 'auto Student::GetName(void) const': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_lecture.h(14): message : 'Student::GetName' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_lecture.h(18,41): error C2535: 'void Student::SetNume(const std::string &)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_lecture.h(15): message : 'Student::SetNume' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(3,5): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(3): message : 'main'의 이전 정의를 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,20): error C2664: 'Lecture::Lecture(const Lecture &)': 인수 1을(를) 'const char [4]'에서 'const Lecture &'(으)로 변환할 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,20): message : 원인: 'const char [4]'에서 'const Lecture'(으)로 변환할 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,20): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_teach.h(13,1): message : 'Lecture::Lecture' 선언을 참조하십시오.
+  03_stude.h
+  03_teach.h
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(8,2): error C2065: 'Student': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(8,10): error C2146: 구문 오류: ';'이(가) 's1' 식별자 앞에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(8,10): error C3861: 's1': 식별자를 찾을 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(9,2): error C2065: 'Student': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(9,10): error C2146: 구문 오류: ';'이(가) 's2' 식별자 앞에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(9,10): error C3861: 's2': 식별자를 찾을 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(10,2): error C2065: 'Student': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(10,10): error C2146: 구문 오류: ';'이(가) 's3' 식별자 앞에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(10,10): error C3861: 's3': 식별자를 찾을 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(13,22): error C2065: 's1': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(14,21): error C2065: 's2': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(15,22): error C2065: 's3': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,3): error C2065: 'Lecture': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,11): error C2146: 구문 오류: ';'이(가) 'lec' 식별자 앞에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,11): error C3861: 'lec': 식별자를 찾을 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(23,22): error C2065: 's1': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(24,21): error C2065: 's2': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(25,22): error C2065: 's3': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(27,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(3): message : 'main' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_teach.h(9,14): error C2065: 'Student': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_teach.h(9,22): error C2059: 구문 오류: '>'
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_lecture.h(17,22): error C2535: 'auto Student::GetName(void) const': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_lecture.h(14): message : 'Student::GetName' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_lecture.h(18,41): error C2535: 'void Student::SetNume(const std::string &)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_lecture.h(15): message : 'Student::SetNume' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(3,5): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(3): message : 'main'의 이전 정의를 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,20): error C2664: 'Lecture::Lecture(const Lecture &)': 인수 1을(를) 'const char [4]'에서 'const Lecture &'(으)로 변환할 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,20): message : 원인: 'const char [4]'에서 'const Lecture'(으)로 변환할 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_aggregation.cpp(19,20): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_teach.h(13,1): message : 'Lecture::Lecture' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_teach.h(6,1): error C2011: 'Lecture': 'class' 형식 재정의
+C:\Users\user\source\repos\c++이론\Object_RelationShip\03_teach.h(5): message : 'Lecture' 선언을 참조하십시오.
+  04_association.cpp
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,30): error C2065: 'patient': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,30): error C2672: 'begin': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): error C2893: 함수 템플릿 'unknown-type std::begin(_Container &)'을(를) 특수화하지 못했습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1916): message : 'std::begin' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): message : 다음 템플릿 인수 사용:
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): message : '_Container=unknown-type'
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': 'std::initializer_list<_Elem>'의 템플릿 인수를 'unknown-type'에서 추론할 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(57): message : 'std::begin' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,30): error C2672: 'end': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): error C2893: 함수 템플릿 'unknown-type std::end(_Container &)'을(를) 특수화하지 못했습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1926): message : 'std::end' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): message : 다음 템플릿 인수 사용:
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): message : '_Container=unknown-type'
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': 'std::initializer_list<_Elem>'의 템플릿 인수를 'unknown-type'에서 추론할 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(63): message : 'std::end' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): error C3536: '<begin>$L0': 초기화되기 전에 사용할 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,1): error C3536: '<end>$L0': 초기화되기 전에 사용할 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(42,37): error C2100: 간접 참조가 잘못되었습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(51,14): error C2533: 'Doctor::{ctor}': 생성자에서 반환 형식을 사용할 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(52,1): error C2511: 'Doctor::Doctor(void)': 오버로드된 멤버 함수가 'Doctor'에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(26): message : 'Doctor' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(55,15): error C2577: 'Doctor::~Doctor': 소멸자은(는) 반환 형식을 가질 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(59,15): error C2533: 'Patient::{ctor}': 생성자에서 반환 형식을 사용할 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(60,1): error C2511: 'Patient::Patient(void)': 오버로드된 멤버 함수가 'Patient'에 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(6): message : 'Patient' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(68,16): error C2577: 'Patient::~Patient': 소멸자은(는) 반환 형식을 가질 수 없습니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(82,6): error C2039: 'AddPatient': 'Patient'의 멤버가 아닙니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(6): message : 'Patient' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(85,6): error C2039: 'AddPatient': 'Patient'의 멤버가 아닙니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(6): message : 'Patient' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(88,6): error C2039: 'AddPatient': 'Patient'의 멤버가 아닙니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(6): message : 'Patient' 선언을 참조하십시오.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(88,17): error C2065: 'd3': 선언되지 않은 식별자입니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(96,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\04_association.cpp(72): message : 'main' 선언을 참조하십시오.
+  05_Dependencies.cpp
+C:\Users\user\source\repos\c++이론\Object_RelationShip\05_Dependencies.cpp(14,2): error C2059: 구문 오류: '}'
+C:\Users\user\source\repos\c++이론\Object_RelationShip\05_Dependencies.cpp(22,2): error C2561: 'main': 함수는 값을 반환해야 합니다.
+C:\Users\user\source\repos\c++이론\Object_RelationShip\05_Dependencies.cpp(18): message : 'main' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
