@@ -176,9 +176,13 @@ void AdapterContainer()
 
 		stack<int>stack;
 
-		stack.push(1);//push
-		stack.emplace(1);
+		stack.push(1);//push adds a copy
+		stack.emplace(1);//emplace constructs a new object
 		stack.emplace(3);
+
+		cout << stack.top() << endl;
+		stack.pop();
+		cout << stack.top() << endl;
 	}
 }
 
